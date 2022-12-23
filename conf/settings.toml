@@ -1,0 +1,20 @@
+[data]
+DATA_SET = "https://raw.githubusercontent.com/antsareva/hse_decision_analysis/master/SampleSuperstore.csv"
+
+[linear_regression]
+MODEL_DIR = "models/linear_regression/conf/linear_regression_model.pkl"
+
+[lasso]
+LASSO_ALPHA = 0.01
+MODEL_DIR = "models/lasso/conf/lasso_model.pkl"
+
+[ridge]
+RIDGE_ALPHA = 0.01
+MODEL_DIR = "models/lasso/conf/lasso_model.pkl"
+
+[data_categories]
+CATEGORICAL_DEATURES = ['Ship Mode', 'Segment', 'City', 'State', 'Region', 'Category', 'Sub-Category']
+
+[general]
+DF_SPLIT_TEST_SIZE = 0.2
+DF_SPLIT_RANDOM_STATE = 1
